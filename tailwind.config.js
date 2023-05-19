@@ -73,8 +73,22 @@ module.exports = {
           800: "#8c6923",
           900: "#6b501b",
         },
-        
-      }
+      },
+
+      blur: {
+        full: "194px",
+      },
+
+      backgroundImage: {
+        strips:
+          "linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.1) 12.5%, transparent 12.5%, transparent)",
+      },
+      backgroundSize: {
+        strips: "100% 8px",
+      },
+      fontSize: {
+        "5xl": "2.5rem",
+      },
     },
   },
   plugins: [],
